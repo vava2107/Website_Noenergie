@@ -25,6 +25,8 @@ img {
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 body {
@@ -32,6 +34,7 @@ body {
     color: var(--text-dark);
     line-height: 1.6;
     overflow-x: hidden;
+    width: 100%;
 }
 
 h1,
@@ -95,6 +98,13 @@ h3,
 
 .dark {
     background-color: var(--bg-dark);
+    color: var(--text-light);
+}
+
+.dark p,
+.dark li,
+.dark .features li {
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .text-gradient {
